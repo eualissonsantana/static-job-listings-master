@@ -1,0 +1,22 @@
+{
+  "name": "static-job-listings-master",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlissonSantana01/static-job-listings-master.git"
+  },
+  "author": "Alisson Santana",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlissonSantana01/static-job-listings-master/issues"
+  },
+  "homepage": "https://github.com/AlissonSantana01/static-job-listings-master#readme",
+  "dependencies": {
+    "bootstrap": "^4.5.0"
+  }
+}
