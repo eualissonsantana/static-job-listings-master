@@ -1,11 +1,12 @@
 body {       
     background-color: hsl(180, 52%, 96%) !important; 
-    font-family: 'Spartan', sans-serif;
 }
 
 body h5 {
-    font-size: 15px;
+    font-size: 14px;
+    font-family: 'Spartan', sans-serif;
 }
+
 
 #buscador {
     position: relative;
@@ -17,7 +18,20 @@ body h5 {
 .job-item {
     background-color: #FFF;
     border-radius: 4px;
+    padding: 20px 0;
     padding-left: 0 !important;
+    margin-top: 20px;
+    position: relative;
+}
+
+.imagem {
+    position: relative;
+    top: -45px;
+    margin: 0;
+}
+
+.infos {
+    margin-top: -30px;
 }
 
 .left-line {
@@ -30,24 +44,28 @@ body h5 {
 }
 
 .new h5, .featured h5 {
-    margin: 3px 10px;
+    margin: 6px 8px 1px 8px;
+    font-size: 11px;
 }
 
 .titulos {
     display: flex;
     padding: 0;
+    align-items: center;
 }
 
 .title {
-    color:  hsl(180, 8%, 52%);
-    margin-right: 20px;
+    color:   hsl(180, 29%, 50%) ;
+    margin: 0;
+    margin-right: 15px;
+    font-weight: bold;
 }
 
 .new {
     border-radius: 12px;
-    background-color:  hsl(180, 8%, 52%);
+    background-color:   hsl(180, 29%, 50%);
     color: #fff;
-    margin-right: 5px;
+    margin-right: 8px;
 }
 
 .featured {
@@ -57,13 +75,55 @@ body h5 {
 }
 
 .vaga {
-    margin-top: 10px
+    margin: 12px 0;
 }
 
 .vaga h5 {
     font-weight: bold;
     color: hsl(180, 14%, 20%);
+    font-size: 15px;
 }
+
+.descricao h5 {
+    color: hsl(180, 8%, 52%);
+    vertical-align:middle;
+    text-align: center;
+    align-items: center;
+    font-weight: normal;
+    font-size: 12px;
+}
+
+.circle {
+    width: 4px;
+    height: 4px;
+    margin: 4px 8px;
+    border-radius: 50%;
+    background-color: hsl(180, 8%, 52%);
+}
+
+.linha {
+    width: 100%;
+    color: hsl(180, 8%, 52%);
+    margin: 5px 0 15px 0;
+    border-width: 2px;
+}
+
+.filtro {
+    padding: 7px;
+    background-color: hsl(180, 31%, 95%);
+    color: hsl(180, 29%, 50%);
+    border-radius: 4px;
+    margin: 0 10px 10px 0; 
+    vertical-align: center;
+}
+
+.filtro h5 {
+    font-weight: bold;
+    margin: 0;
+    font-size: 13px;
+}
+
+
 /*  MOBILE  */
 
 @media (max-width: 375px) {
@@ -71,7 +131,7 @@ body h5 {
         position: relative;
         height: 155px;
         background:  hsl(180, 29%, 50%) url(../images/bg-header-mobile.svg) 100% 100% no-repeat;
-        margin-bottom: 100px;
+        margin-bottom: 120px;
     }
 
     #buscador {
